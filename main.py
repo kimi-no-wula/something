@@ -41,7 +41,6 @@ class YellowEllipse(QMainWindow):
         self.qp.setBrush(QColor(0, 0, 255))
         z, x, y = randint(5, 200), randint(5, 680), randint(5, 580)
 
-
         self.qp.setBrush(QColor('yellow'))
         self.qp.drawEllipse(x, y, z, z)
 
